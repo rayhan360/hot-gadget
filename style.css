@@ -1,0 +1,11 @@
+.bg-image{
+    background-image: linear-gradient('hot-gadgets/bg-1.png');
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, Black 100%, red 0%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
