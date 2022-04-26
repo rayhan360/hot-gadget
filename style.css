@@ -1,5 +1,13 @@
+.container{
+    margin-bottom: 80px;
+}
 .bg-image{
-    background-image: linear-gradient('hot-gadgets/bg-1.png');
+    background-image: url('hot-gadgets/bg-1.png');
+    background-image: url('hot-gadgets/bg-2.png');
+    background-repeat: no-repeat;
+}
+.carousel-item{
+    padding: 20px 40px;
 }
 .buy-now-button{
     background-image: linear-gradient(to bottom, Black 100%, red 0%);
@@ -8,4 +16,17 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+.org-color{
+    color: orange;
+}
+.col{
+    text-align: center;
+}
+.gray{
+    color: gray;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
 }
